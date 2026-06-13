@@ -1,0 +1,33 @@
+:root {
+  --bg-color: #f8fafc;
+  --second-bg-color: #e8e2d6;
+  --text-color: #0d0d0d;
+  --second-color: #161616;
+  --main-color: #0bab0bf3;
+  --big-font: 4rem;
+  --h2-font: 3rem;
+  --p-font: 1.3rem;
+  --home-image: url(./Assets/Home-Images/Home-Img-2.jpg);
+  --about-image: url(./Assets/About-Images/About-Img-1.jpeg);
+  --white: #000;
+  /* --opacity: 0.85: ; */
+}
+.dark-mode {
+  --bg-color: #0d0d0d;
+  --second-bg-color: #161616;
+  --text-color: #f8fafc;
+  --second-color: #e8e2d6;
+  --home-image: url(./Assets/Home-Images/Home-Img-1.jpg);
+  --black: #000;
+}
+
+.blog-footer {
+  background-color: var(--bg-color);
+  bottom: 0;
+  position: fixed;
+  right: 0;
+}
+.main-read-more-footer {
+  margin-bottom: 3rem;
+  /* margin-left: 3rem; */
+}
